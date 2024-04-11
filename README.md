@@ -17,15 +17,15 @@ The code is structured as follows:
 
 * script_bci.py allows to launch all the experiments with the different algorithms 
 * create_bci_dataset.py allows to create the data (which are already in the repo). You will need to install the moabb library.
-* script_feMNIST.py allows to launch all the experiments with the different algorithms on the FEMNIST dataset.  the FE-MNIST dataset is already in the repo but they can be built using the LEAF repo.
+* script_femnist.py allows to launch all the experiments with the different algorithms on the FEMNIST dataset.  The FEMNIST dataset is already in the repo but they can be built using the LEAF repo.
 
 If you use this code for your research, you can cite our paper:
 
 ```
-@inproceedings{rakoto2024fedwad,
-  title={Federated Wassertein Distance},
-  author={Rakotomamonjy, Alain and Nadjahi, Kimia and Ralaivola, Liva},
-  booktitle={International Conference on Learning Representations},
+@inproceedings{rakoto2024flic,
+  title={Personalised Federated Learning On Heterogeneous Feature Spaces},
+  author={Rakotomamonjy, Alain and Vono, Maxime and Medina Ruiz, Hamlet J.  and Ralaivola, Liva },
+  booktitle={Transactions on Machine Learning Research},
   year={2024}
 }
 ```
