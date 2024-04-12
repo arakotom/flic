@@ -2,7 +2,7 @@
 
 Personalised Federated Learning On Heterogeneous Feature Spaces by A. Rakotomamonjy et al.
 
-The paper is available at [https://openreview.net/pdf?id=uCZJaqJchs]
+The paper is available at [https://openreview.net/forum?id=uCZJaqJchs]
 
 
 This repo should allow you to reproduce the results on the BCI datasets and on FEMNIST.
@@ -22,10 +22,12 @@ The code is structured as follows:
 If you use this code for your research, you can cite our paper:
 
 ```
-@inproceedings{rakoto2024flic,
+@article{rakoto2024flic,
   title={Personalised Federated Learning On Heterogeneous Feature Spaces},
   author={Rakotomamonjy, Alain and Vono, Maxime and Medina Ruiz, Hamlet J.  and Ralaivola, Liva },
-  booktitle={Transactions on Machine Learning Research},
+  journal={Transactions on Machine Learning Research},
+  volume={1},
+  url={https://openreview.net/forum?id=uCZJaqJchs},
   year={2024}
 }
 ```
